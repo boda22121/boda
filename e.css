@@ -1,0 +1,122 @@
+.header-twitter {
+    background: #fff;
+    width: 100%;
+	height: auto;
+    position: relative;
+    border-radius: 10px;
+}
+.header-twitter img {
+    width: 60;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.txt-login-twitter {
+	padding-top: 10px;
+	padding-right: 17px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+	text-align: right;
+    margin-bottom: 3%;
+}
+.form-group {
+	width: 90%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0;
+	position: relative;
+	display: block;
+}
+.form-group input {
+	background: transparent;
+	width: 100%;
+	padding: 16px;
+	padding-left: 9px;
+	color: #000;
+	font-size: 17px;
+	font-family: arial, sans-serif;
+	text-align: right;
+	border: 1px solid #657786;
+	border-radius: 3.5px;
+	display: block;
+}
+.form-group label {
+	color: #6E767D;
+	font-size: 17px;
+	font-weight: 100;
+	font-family: arial, sans-serif;
+	text-align: right;
+	top: 0;
+	right: 10.5px;
+	position: absolute;
+	pointer-events: none;
+	transform: translateY(26px);
+	transition: all 0.2s ease-in-out;
+}
+.form-group input:valid,.form-group input:focus {
+	border: 2px solid #1da1f2;
+	outline: none;
+}
+.form-group input:valid+label,.form-group input:focus+label {
+	color: #1da1f2;
+	font-size: 12px;
+	top: 15px;
+	bottom: 20px;
+	transform: translateY(0);
+}
+.form-group-sohi {
+	width: 50px;
+	height: 73%;
+	margin-left: 88%;
+	position: absolute;
+	z-index: 9999999;
+	cursor: pointer;
+}
+.form-group-sohi img {
+	width: 25px;
+	margin-top: 14px;
+}
+.form-group-menu {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 25px;
+	display: block;
+}
+.form-group-menu label {
+	color: #000;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+	float: right;
+}
+.form-group-menu label span {
+	color: #1da1f2;
+}
+.form-group-menu p {
+	padding-top: 10px;
+	color: #fa3e3e;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	text-align: center;
+	line-height: 0px;
+	display: none;
+}
+.form-group-menu button {
+    background: #1da1f2;
+    width: 100%;
+    height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    padding: 14px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    letter-spacing: 1;
+}
